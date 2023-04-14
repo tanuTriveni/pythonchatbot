@@ -8,12 +8,12 @@ import gradio as gr
 #openai.api_key = os.getenv("OPENAI_API_KEY")
 load_dotenv()  # load variables from .env file, if present
 
-openai.api_key = os.getenv('OPENAI_API_KEY')
-response = openai.Completion.create(
-    engine="davinci",
-    prompt="Hello,",
-    max_tokens=5
-)
+# openai.api_key = os.getenv('OPENAI_API_KEY')
+# response = openai.Completion.create(
+#     engine="davinci",
+#     prompt="Hello,",
+#     max_tokens=5
+# )
 
 #if you have OpenAI API key as a string, enable the below
 #openai.api_key = "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"
